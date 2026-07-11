@@ -232,6 +232,7 @@ h1, h2, h3, h4, h5 {
     .container-home {
         flex-direction: column;
         text-align: center;
+        gap: 24px;
     }
 
     .conteudo-home {
@@ -248,7 +249,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .imagem-home {
-        margin-top: 40px;
+        margin-top: 0;
         width: 100%;
     }
 
@@ -479,6 +480,7 @@ h1, h2, h3, h4, h5 {
     .container-quem-somos {
         flex-direction: column;
         text-align: center;
+        gap: 24px;
     }
 
     .texto-quem-somos-container {
@@ -493,7 +495,6 @@ h1, h2, h3, h4, h5 {
         height: 300px;
     }
 }
-
 /* ===== Por que escolher ===== */
 .porque-escolher {
     background: #0d6fa3;
@@ -581,6 +582,7 @@ h1, h2, h3, h4, h5 {
     .container-porque-escolher {
         flex-direction: column;
         text-align: center;
+        gap: 24px;
     }
 
     .texto-porque-escolher {
