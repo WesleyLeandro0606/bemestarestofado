@@ -495,6 +495,7 @@ h1, h2, h3, h4, h5 {
         height: 300px;
     }
 }
+
 /* ===== Por que escolher ===== */
 .porque-escolher {
     background: #0d6fa3;
@@ -942,11 +943,49 @@ h1, h2, h3, h4, h5 {
         text-align: center;
     }
 
+    /* Reduz o padding vertical de TODAS as seções no mobile,
+       inclusive .home, que antes ficava com 90px fixo */
     section {
-        padding: 50px 6%;
+        padding: 36px 6%;
+    }
+
+    .home {
+        padding: 40px 6%;
     }
 
     .home h1 {
         font-size: 1.9rem;
+    }
+}
+
+/* Telas bem pequenas de celular: aperta ainda mais o espaçamento
+   ao redor das fotos */
+@media (max-width: 500px) {
+    section {
+        padding: 28px 6%;
+    }
+
+    .home {
+        padding: 28px 6% 36px;
+    }
+
+    .imagem-home img {
+        height: 220px;
+    }
+
+    .foto-quem-somos img {
+        height: 240px;
+    }
+
+    .imagem-porque-escolher img {
+        height: 260px;
+    }
+
+    .container-cards {
+        gap: 16px;
+    }
+
+    .mini-slide img {
+        height: 140px;
     }
 }
