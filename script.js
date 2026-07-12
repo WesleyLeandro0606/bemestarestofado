@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // ===== Botão "WhatsApp" no rodapé =====
-    const linkWhatsRodape = document.getElementById('link-whatsapp');
+    const linkWhatsRodape = document.getElementById('link-whatsapp-rodape');
     if (linkWhatsRodape) {
         linkWhatsRodape.addEventListener('click', function (evento) {
             evento.preventDefault();
