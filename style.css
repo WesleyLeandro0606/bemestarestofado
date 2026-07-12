@@ -232,9 +232,9 @@ h1, h2, h3, h4, h5 {
     .container-home {
         flex-direction: column;
         text-align: center;
-        gap: 24px; /* <-- ADICIONAR ESTA LINHA */
+        gap: 24px;
     }
-}
+
     .conteudo-home {
         text-align: center;
     }
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5 {
         transform: translateX(-50%);
         bottom: -20px;
     }
-
+}
 
 /* ===== Nossos Serviços ===== */
 .nossos-servicos {
@@ -582,9 +582,8 @@ h1, h2, h3, h4, h5 {
     .container-porque-escolher {
         flex-direction: column;
         text-align: center;
-        gap: 24px; /* <-- ADICIONAR ESTA LINHA */
+        gap: 24px;
     }
-}
 
     .texto-porque-escolher {
         text-align: center;
@@ -597,7 +596,7 @@ h1, h2, h3, h4, h5 {
     .imagem-porque-escolher img {
         height: 320px;
     }
-
+}
 
 /* ===== Depoimentos ===== */
 .depoimentos {
@@ -944,7 +943,7 @@ h1, h2, h3, h4, h5 {
     }
 
     section {
-        padding: 50px 6%;
+        padding: 32px 6%;
     }
 
     .home h1 {
