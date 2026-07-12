@@ -232,9 +232,9 @@ h1, h2, h3, h4, h5 {
     .container-home {
         flex-direction: column;
         text-align: center;
-        gap: 24px;
+        gap: 24px; /* <-- ADICIONAR ESTA LINHA */
     }
-
+}
     .conteudo-home {
         text-align: center;
     }
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5 {
         transform: translateX(-50%);
         bottom: -20px;
     }
-}
+
 
 /* ===== Nossos Serviços ===== */
 .nossos-servicos {
@@ -495,7 +495,6 @@ h1, h2, h3, h4, h5 {
         height: 300px;
     }
 }
-
 /* ===== Por que escolher ===== */
 .porque-escolher {
     background: #0d6fa3;
@@ -583,8 +582,9 @@ h1, h2, h3, h4, h5 {
     .container-porque-escolher {
         flex-direction: column;
         text-align: center;
-        gap: 24px;
+        gap: 24px; /* <-- ADICIONAR ESTA LINHA */
     }
+}
 
     .texto-porque-escolher {
         text-align: center;
@@ -597,7 +597,7 @@ h1, h2, h3, h4, h5 {
     .imagem-porque-escolher img {
         height: 320px;
     }
-}
+
 
 /* ===== Depoimentos ===== */
 .depoimentos {
@@ -943,49 +943,11 @@ h1, h2, h3, h4, h5 {
         text-align: center;
     }
 
-    /* Reduz o padding vertical de TODAS as seções no mobile,
-       inclusive .home, que antes ficava com 90px fixo */
     section {
-        padding: 36px 6%;
-    }
-
-    .home {
-        padding: 40px 6%;
+        padding: 50px 6%;
     }
 
     .home h1 {
         font-size: 1.9rem;
-    }
-}
-
-/* Telas bem pequenas de celular: aperta ainda mais o espaçamento
-   ao redor das fotos */
-@media (max-width: 500px) {
-    section {
-        padding: 28px 6%;
-    }
-
-    .home {
-        padding: 28px 6% 36px;
-    }
-
-    .imagem-home img {
-        height: 220px;
-    }
-
-    .foto-quem-somos img {
-        height: 240px;
-    }
-
-    .imagem-porque-escolher img {
-        height: 260px;
-    }
-
-    .container-cards {
-        gap: 16px;
-    }
-
-    .mini-slide img {
-        height: 140px;
     }
 }
